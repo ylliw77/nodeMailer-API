@@ -19,7 +19,7 @@ async function sendMail(req, res) {
       text: "lorem ipsum dolor sit..",
     });
     res.status(200).send({
-      message : "Email successfully deliverd"
+      message : "Email successfully delivered"
     })
   } catch (err) {
     console.log(err);
